@@ -1,5 +1,3 @@
-// import Typewriter from "typewriter-effect/dist/core";
-
 let button1 = document.querySelector("#button-1");
 let button2 = document.querySelector("#button-2");
 let button3 = document.querySelector("#button-3");
@@ -43,7 +41,3 @@ function displayPoem() {
 button1.addEventListener("click", displayFact);
 button2.addEventListener("click", displayJoke);
 button3.addEventListener("click", displayPoem);
-
-const audio = document.getElementById("background-music");
-audio.volume = 0.5; // Set volume to 50%
-audio.muted = false; // Ensure it's not muted
